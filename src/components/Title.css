@@ -1,0 +1,10 @@
+.title{
+    border: dotted red;
+    border-width: 8px;
+    height: 50px;
+    color: rgb(150, 84, 3);
+    font-size: 28pt;
+    font-weight: 900;
+    font-family: cursive;
+}
+

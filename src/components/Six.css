@@ -1,0 +1,60 @@
+
+   
+   .zoomScale
+   {
+       display:inline-block;
+       /* border:0; */
+       border: solid rgb(3, 187, 28);
+       width:196px;
+       height:430px;
+       position: relative;
+       -webkit-transition: all 200ms ease-in;
+       -webkit-transform: scale(1); 
+       -ms-transition: all 200ms ease-in;
+       -ms-transform: scale(1); 
+       -moz-transition: all 200ms ease-in;
+       -moz-transform: scale(1);
+       transition: all 200ms ease-in;
+       transform: scale(1);   
+   
+   }
+   .zoomScale:hover
+   {
+       box-shadow: 0px 0px 150px #000000;
+       z-index: 2;
+       -webkit-transition: all 200ms ease-in;
+       -webkit-transform: scale(1.5);
+       -ms-transition: all 200ms ease-in;
+       -ms-transform: scale(1.5);   
+       -moz-transition: all 200ms ease-in;
+       -moz-transform: scale(1.5);
+       transition: all 200ms ease-in;
+       transform: scale(1.5);
+   }
+
+
+   #pic1{  
+       background-image: url("https://i.pinimg.com/originals/b3/b8/71/b3b871e896bf918300eedabedcc235b5.jpg");
+       background-size: 100% 100%;
+    }
+
+    #pic2{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkorSjGyQr7i71v8QSCAN3anop--B-yVPE6TYKvWMztjdP_ppH");
+       background-size: 100% 100%;   
+    }
+
+    #pic3{
+        background-image: url("https://whereyoueat.com/images/restaurants/16652/menu/Trattoria-Toscana-menu-13.jpg");
+       background-size: 100% 100%;   
+    }
+
+    #pic4{
+        background-image: url("https://i.pinimg.com/originals/d9/a8/aa/d9a8aa616ed1addd74b11f18922ffbc5.jpg");
+       background-size: 100% 100%;   
+    }
+
+    #pic5{
+        background-image: url("https://maxbrenner.com/menus-new/Menu_A3-1-04-15-2016-05-04.jpg");
+       background-size: 100% 100%;   
+    }
+
